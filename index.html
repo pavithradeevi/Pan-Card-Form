@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN CARD-form</title>
+    <style>
+        span{
+            color:red;
+        }
+        table,tr,td{
+            border:1px solid black;
+            border-collapse:collapse;
+        }
+        *{
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- main container -->
+    <div style="background-color: lightyellow;">
+        <!-- heading+table start -->
+        <div>
+            <!-- heading start -->
+        <div style="background-color:rgb(148, 29, 29);color:white;text-align:center">
+            <h4>Request for New PAN Card or/And Changes or Correction in PAN DATA</h4>
+            <p>Fiels marked with <span>*</span>(asterisk are mandatory).To avoid mistake(s).
+                Please refer <u style="color:orange">guidelines</u> and <u style="color:orange">instructions</u></p>
+        </div>
+            <!-- heading end -->
+            <!-- table start -->
+            <div>
+                <table style="width:100%;font-weight:bold">
+                    <tr>
+                        <td>
+                        <td>
+                            <span>*</span>Whether citizen of India
+                            <label for="yes"style="padding-left: 40px;font-weight:lighter">Yes</label>
+                            <input type="radio" name="" id="yes">
+
+                            <label for="no"style="padding-left: 20px;font-weight:lighter">No</label>
+                            <input type="radio" name="" id="no">
+
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <span>*</span>
+                            <label for="">Permanent account Number(PAN)</label>
+                            <input type="text" name=""id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+
+                        </td>
+                        <td>
+                            <span>*</span>1.Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="">Title</label>
+                            <label for=""style="padding-left:20px;">Shri/Mr</label>
+                            <input type="radio"name="" id="">
+                            <label for=""style="padding-left:20px;">Smt./Mrs</label>
+                            <input type="radio"name="" id="">
+                            <label for=""style="padding-left:20px;">Kumari/Ms</label>
+                            <input type="radio"name="" id="">
+                            
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div style="display:inline-block;">
+                            <label for="">LastName/SurName</label><br>
+                            
+                            <input type="text";name="" id=""></div>
+                            <div style="display:inline-block;padding-left:250px;">
+                            
+                            <label for="">FirstName</label><br>
+                            <input type="text";name="" id=""></div>
+                            
+                            <div style="display:inline-block;padding-left:250px;">
+                            <label for="">MiddleName</label><br>
+                            <input type="text";name="" id=""></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <!-- heading+table end -->
+        <div></div>
+
+
+    </div>
+</body>
+</html>
